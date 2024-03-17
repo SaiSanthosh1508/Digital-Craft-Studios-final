@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="hpstyle.css">
+</head>
+  <body>
+
+    <!----Nav Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="company_logo-removebg.svg" alt="Logo" width="50" height="50" class="d-inline-block align-text-middle">
+                Digital Craft Studios
+              </a>      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-underline me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#about_us">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#test">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="teampage.html" target="_blank">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallredirect">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#featured-3">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+               Login
+              </button>
+               <a href="signup.html" target="_blank"><button type="button" class="btn btn-outline-primary navs">Login</button></a> 
+            </form>
+          </div>
+        </div>
+      </nav>
+     
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-center">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign up</button>
+          <hr class="my-4">
+          <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+              <img width="24" height="24" src="https://img.icons8.com/fluency/48/google-logo.png" alt="google-logo"/>
+              Login with Google
+            </button>
+          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+              <img width="24" height="24" src="https://img.icons8.com/color/24/twitter--v2.png" alt="twitter--v2"/>
+            Login with Twitter
+          </button>
+          <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+              <img width="24" height="24" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/>
+            Login with Facebook
+          </button>
+          <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+              <img width="24" height="24" src="https://img.icons8.com/glyph-neue/24/github.png" alt="github"/>
+            Login with GitHub
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+      <!---About Us-->
+    <div id="about">  
+      <div class="container col-xxl-8 px-4 py-5 bg-light text-dark" id="about_us">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block mx-lg-auto img-fluid" alt="About Us image" width="500" height="300" loading="lazy" style="border-radius: 10px;">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Us</h1><br>
+            <p class="fs-6">
+                At DigitalCraft Studios, we are passionate about crafting digital experiences that captivate, engage, and inspire. Founded in 2024, we have been at the forefront of digital innovation, working with clients from diverse industries to bring their visions to life.
+                <br><br>
+                <span class="fs-3 fw-medium">Our Mission</span><br><br>
+                Our mission is simple: to blend creativity, technology, and strategy to deliver exceptional digital solutions that drive results. Whether it's designing stunning websites, developing innovative mobile applications, or crafting immersive digital marketing campaigns, we're committed to exceeding our clients' expectations.
+                <span><p><span class="fs-4">What Sets Us Apart</span>
+                       <ul>
+                        <li><span class="fw-medium text-decoration-underline">Expertise:</span> Our team consists of highly skilled professionals with expertise in design, development, and digital marketing. We leverage the latest tools and technologies to deliver cutting-edge solutions.</li>
+                        <li><span class="fw-medium text-decoration-underline">Collaboration:</span> We believe in the power of collaboration. We work closely with our clients to understand their goals, challenges, and unique requirements, ensuring that every project is tailored to their specific needs.</li>
+                        <li><span class="fw-medium text-decoration-underline">Innovation:</span>Innovation is at the core of everything we do. We're constantly pushing the boundaries of what's possible, exploring new ideas, and experimenting with emerging trends to stay ahead of the curve.</li>
+                        </ul> 
+                </p></span>
+            </p><br>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="#gallredirect"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Explore</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+      <!-----Gallery-->
+    <div id="gallredirect">  
+      <div class="container col-xxl-8 px-4 py-5 bg-secondary text-white my-4" id="gallery">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="image-grid.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Website Gallery</h1>
+            <p class="lead">Look into the various exclusive and eye-catching website designs by our teams </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="gallerypage.html"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Access Gallery</button></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <!---testimonials-->
+  <div id="test" class="col-xxl mx-5 bg-primary-subtle" style="border-radius: 10px;">
+    <h1 class="text-center text-decoration-underline py-4">Testimonials</h1>
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="text-center">
+            <img src="t1.jpg"  alt="pic-1" width="200px" height="200px" style="border-radius: 100%;padding: 0.5rem;">
+            <h2>Thomas Johnson, Founder of ABC Startup</h2>
+            <p>"I had the pleasure of working with DigitalCraft Studios on the development of our mobile app, and I couldn't be happier with the results. Their team's expertise and commitment to quality ensured that our app was not only functional but also user-friendly and visually appealing. I look forward to collaborating with them on future projects."</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center">
+            <img src="t2.jpg"  alt="pic-1" width="200px" height="200px" style="border-radius: 100%;padding: 0.5rem;">
+            <h2>Jessica Carter, Marketing Manager at LMN Corporation</h2>
+            <p>"DigitalCraft Studios helped us revamp our digital marketing strategy, and the results were outstanding. Their team's in-depth knowledge of SEO and social media marketing significantly increased our online visibility and engagement. Their proactive approach and regular communication made the entire process seamless. Highly recommended for anyone looking to elevate their digital presence!"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center">
+            <img src="t3.jpg"  alt="pic-1" width="200px" height="200px" style="border-radius: 100%;padding: 0.5rem;">
+            <h2>Andrew Thompson, Small Business Owner</h2>
+            <p>"I reached out to DigitalCraft Studios for web design services, and I'm thrilled with the outcome. They took the time to understand my business goals and delivered a website that exceeded my expectations. Their attention to detail and commitment to customer satisfaction were evident every step of the way. I'm grateful for their expertise and support!"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/006/723/180/small/happiness-and-smiling-young-beautiful-businesswoman-with-headphones-professional-operator-service-concept-photo.jpg"  alt="pic-1" width="200px" height="200px" style="border-radius: 100%;padding: 0.5rem;">
+            <h2>Sophia Martinez, Director of Operations at PQR Enterprises</h2>
+            <p>"DigitalCraft Studios has been an invaluable partner in helping us enhance our online presence. From website development to digital marketing, their team provided tailored solutions that aligned perfectly with our objectives. Their professionalism, creativity, and expertise have been instrumental in our success. We're grateful for their partnership and highly recommend their services."</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="text-center">
+            <img src="https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg?size=626&ext=jpg&ga=GA1.1.2046716317.1710042330&semt=ais"  alt="pic-1" width="200px" height="200px" style="border-radius: 100%;padding: 0.5rem;">
+            <h2>Sophia Martinez, Director of Operations at PQR Enterprises</h2>
+            <p>"DigitalCraft Studios has been an invaluable partner in helping us enhance our online presence. From website development to digital marketing, their team provided tailored solutions that aligned perfectly with our objectives. Their professionalism, creativity, and expertise have been instrumental in our success. We're grateful for their partnership and highly recommend their services."</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>    
+      <!---Services-->
+      
+      <div class="container py-3" id="services">
+        <header>
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+            </nav>
+          </div>
+      
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Services</h1>
+            <p class="fs-5 text-body-secondary">Explore the various Services provided by us</p>
+          </div>
+        </header>
+      
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-semibold">Web Design & Development</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list mt-3 mb-4">
+                    <li class="text-start">Website Design & Redesign</li>
+                    <li class="text-start">FrontEnd & BackEnd Development</li>
+                    <li class="text-start">E-commerce Solutions</li>
+                    <li class="text-start">Content Management Systems(CMI) Integration</li>
+                    <li class="text-start">Website Management and Support</li>
+                  </ul>
+                  <a href="services_page.html#webdev-services"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Explore Services</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3">
+                  <h4 class="my-0 fw-semibold">Mobile App Development</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list mt-3 mb-4">
+                    <li class="text-start">Native App Development</li>
+                    <li class="text-start">Hybrid App Development</li>
+                    <li class="text-start">App Prototyping and Wireframing</li>
+                    <li class="text-start">App Store Optimisation</li>
+                    <li class="text-start">App Maintenance and Updates</li>
+                  </ul>
+                  <a href="services_page.html#appdev-services"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Explore Services</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 border-primary">
+                  <h4 class="my-0 fw-semibold">Digital Marketing</h4>
+                </div>
+                <div class="card-body">
+                  <ul class="list mt-3 mb-4">
+                    <li class="text-start">Search Engine Optimization(SEO)</li>
+                    <li class="text-start">Search Engine Marketing(SEM)</li>
+                    <li class="text-start">Social Media Marketing(SMM)</li>
+                    <li class="text-start">Email Marketing</li>
+                    <li class="text-start">Content Marketing</li>
+                  </ul>
+                  <a href="services_page.html#marketing-services"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Explore Services</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <!---Contact Us-->
+
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom"><img width="40" height="40" src="https://img.icons8.com/external-smashingstocks-basic-outline-smashing-stocks/40/external-Customer-Support-machine-learning-icon-smashingstocks-basic-outline-smashing-stocks.png" alt="external-Customer-Support-machine-learning-icon-smashingstocks-basic-outline-smashing-stocks" style="margin-right: 1rem;"/>Contact Us</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+                <img width="48" height="48" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">LinkedIn</h3>
+            <p>Contact Us at:<br><br><a href="#">Digital Craft Studios123</a></p>
+            <a href="#" class="icon-link">
+                <button type="button" class="btn btn-primary">Open LinkedIn</button>
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
+                <img width="48" height="48" src="https://img.icons8.com/fluency/48/gmail-new.png" alt="gmail-new"/>
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Email Us</h3>
+            <p>Email us at:<br><br><a href="#">Digitalcraftstudios123@gmail.com</a></p>
+            <a href="#" class="icon-link">
+                <button type="button" class="btn btn-primary">Open Gmail</button>
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="https://user-images.githubusercontent.com/42868728/70027410-164cdd00-15c8-11ea-9852-6982408e4ea6.png" alt="" width="48" height="48">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Justdail</h3><br>
+            <p>For more details check out our justdail page<span><a>Digital craft Studios</a></span></p><br>
+            <a href="#" class="icon-link">
+                <button type="button" class="btn btn-primary">Open Justdail</button>
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-----Footer-->
+      <footer class="py-5" id="contact" style="background-color: var(--bs-secondary-bg);">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 style="margin:0 1rem;">Services</h5><br>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="services_page.html#webdev-services" class="nav-link p-0 text-body-secondary" target="_blank">Web Design</a></li>
+              <li class="nav-item mb-2"><a href="services_page.html#webdev-services" class="nav-link p-0 text-body-secondary" target="_blank">Web Development</a></li>
+              <li class="nav-item mb-2"><a href="services_page.html#appdev-services" class="nav-link p-0 text-body-secondary" target="_blank">Mobile App Development</a></li>
+              <li class="nav-item mb-2"><a href="services_page.html#marketing-services" class="nav-link p-0 text-body-secondary" target="_blank">Digital Marketing</a></li>
+              <li class="nav-item mb-2"><a href="services_page.html#webdev-services" class="nav-link p-0 text-body-secondary" target="_blank">UI/UX Design</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-md-2 mb-3">
+            <h5 style="margin:0 1rem;">Others</h5><br>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#about" class="nav-link p-0 text-body-secondary">About</a></li>
+              <li class="nav-item mb-2"><a href="#test" class="nav-link p-0 text-body-secondary">Testimonials</a></li>
+              <li class="nav-item mb-2"><a href="teampage.html" class="nav-link p-0 text-body-secondary">Team</a></li>
+              <li class="nav-item mb-2"><a href="#gallredirect" class="nav-link p-0 text-body-secondary">Gallery</a></li>
+              <li class="nav-item mb-2"><a href="#featured-3" class="nav-link p-0 text-body-secondary">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2024 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new"/></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.google.com/gmail/about/" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"/></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/?lang=en" target="_blank"><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a></li>
+          </ul>
+        </div>
+      </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
