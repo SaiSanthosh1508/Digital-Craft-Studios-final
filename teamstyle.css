@@ -1,0 +1,13 @@
+@media  screen and (max-width:970px) {
+    #team-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-mod{
+        display: flex;
+        flex-direction: column;
+    }
+    .card img{
+        width: 100%;
+    }
+}

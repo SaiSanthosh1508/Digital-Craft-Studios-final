@@ -1,0 +1,28 @@
+.nav-link{
+    margin:0 1rem;
+}
+
+.nav-link .active{
+    margin-left:3rem ;
+}
+
+.navs{
+    margin: 0 2rem;
+}
+
+#gallery{
+    width: 90vw;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+#about_us{
+    width: 90vw;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.carousel{
+    border-radius: 10px;
+}
